@@ -98,10 +98,11 @@ button{
 
 .title{
     font-weight: 500;
+    font-size: 1.3rem;
 }
 .heading{
     font-weight: 700;
-    font-size: 22px;
+    font-size: 1.5rem;
 }
 .shadow{
     box-shadow: 0px 7px 14px -2px rgba(0,0,0,0.2);
@@ -109,9 +110,9 @@ button{
 
 .btn{
     width: 160px;
-    height: 35px;
+    height: 40px;
     border-radius: 50px;
-    font-size: 0.8rem;
+    font-size: 1rem;
     cursor: pointer;
     color: #333;
     margin-bottom: 15px;
@@ -192,6 +193,7 @@ button{
 .side-input input[type="radio"]{
     position: absolute;
     display: none;
+    outline: none;
 }
 
 .side-input-label.inactive{
@@ -247,6 +249,7 @@ button{
     width: 50vw;
     min-height: 20vh;
     max-width: 600px;
+    border-radius: 12px;
 }
 .modal .content .header{
     padding: 20px 0;
@@ -261,7 +264,7 @@ button{
     width: 100%;
 }
 .settings li{
-    padding: 10px 20px;
+    padding: 20px 20px;
     cursor: pointer;
 }
 .settings li:hover{
